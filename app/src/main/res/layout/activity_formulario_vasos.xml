@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/activity_formulario_vasos_nome"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Nome do vaso"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"/>
+
+    <EditText android:id="@+id/activity_formulario_vasos_dimensoes"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Dimensões"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <EditText android:id="@+id/activity_formulario_vasos_custo"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Custo (R$)"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+    <EditText android:id="@+id/activity_formulario_vasos_venda"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Venda (R$)"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+    <Button android:id="@+id/activity_formulario_vasos_botao_salvar"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:text="Salvar"/>
+
+
+</LinearLayout>
